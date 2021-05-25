@@ -12,3 +12,10 @@ scrollBtn.addEventListener("click", () => {
   window.scroll(0, programTitleTop);
   window.scroll({ behavior: "smooth" });
 });
+
+// navbar__toggleBtn to active
+const toggleBtn = document.querySelector('.navbar__toggleBtn');
+const navbarMenu = document.querySelector('.navbar__menu')
+toggleBtn.addEventListener('click', () => {
+  navbarMenu.classList.toggle("open");
+})

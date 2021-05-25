@@ -308,10 +308,23 @@ section {
   }
   #navbar {
     margin-left: 10px;
+    flex-direction: column;
   }
 
   .navbar__menu {
     display: none;
+  }
+
+  .navbar__toggleBtn {
+    position: relative;
+    right: -140px;
+    font-size: 24px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .open {
+    display: block;
   }
 
   .titlecontainer {
